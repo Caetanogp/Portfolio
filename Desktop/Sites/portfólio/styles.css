@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('GIFtec.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white; /* Branco para o texto */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: white; /* Branco para o texto do cabeçalho */
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Branco para os links do menu de navegação */
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+    color: white; /* Branco para o texto do título */
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+    color: white; /* Branco para o texto do subtítulo */
+}
+
+section {
+    padding: 20px 15%;
+}
+
+h3 {
+    color: white; /* Branco para os títulos */
+    font-size: 24px;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: white; /* Branco para os parágrafos */
+}
+
+a {
+    color: white; /* Branco para os links de email, LinkedIn e telefone */
+}
+
+a:hover {
+    color: black; /* Cor preta ao passar o mouse */
+}
+
+.tag {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2); /* Mantém as tags visíveis */
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: white; /* Branco para o texto do rodapé */
+    font-size: 14px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.button {
+    display: inline-block;
+    background-color: white; /* Branco para o botão */
+    color: black;
+    border-radius: 5px;
+    padding: 15px 20px; /* Aumenta o tamanho do botão */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 18px; /* Aumenta o tamanho do texto do botão */
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
